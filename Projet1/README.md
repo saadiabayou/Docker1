@@ -20,10 +20,10 @@ Pour se faire, on suit les étapes suivantes :
 
 - Ecrire un Dockerfile qui comportera les caractéristques suivantes :
 
-- Choix de l'OS pour l'image Debian 9, (on pourra choisir une autre distrtibution Linux)
-- Installation de Python et de des packages Flask 
-- Copie du script Python-Flask fichier "script1.py" dans l'image futur container Docker 
-- Exécution le script 
+	- Choix de l'OS pour l'image Debian 9, (on pourra choisir une autre distrtibution Linux)
+	- Installation de Python et de des packages Flask 
+	- Copie du script Python-Flask fichier "script1.py" dans l'image futur container Docker 
+	- Exécution le script 
 
 Pour pouvoir bien observer le résultat , c'est à dire que l'application tourne correctement , 
 il faudra s'assurer le mappage de ports a bien été effectué , pour cela , il est précisé dans la commande 
