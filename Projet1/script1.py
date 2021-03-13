@@ -11,7 +11,7 @@ app=Flask (__name__)
 
 @app.route("/")
 def demo():
-    return " ***      Demonstration n° 1  Docker  -   Application Flask  -  Saadia Bayou ***  "
+    return " ***      Demonstration n° 1  Docker  -  Saadia Bayou ***  "
 
 if __name__=="__main__":
     app.run(host='0.0.0.0', port=9090)
