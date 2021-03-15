@@ -9,3 +9,11 @@ build:
 run : 
 	docker run --name app1 -p 9090:9090 demo1 
 
+stop :
+	 docker stop app1
+
+start : 
+	docker start app1
+
+clean :
+	docker rm app1
