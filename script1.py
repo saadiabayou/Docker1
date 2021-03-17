@@ -20,5 +20,6 @@ if __name__=="__main__":
 
     # fonction parabole
 
-
+# Développer un fonction tracé de parabole
+# en ouverture de l'application  
 
