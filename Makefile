@@ -17,3 +17,8 @@ start :
 
 clean :
 	docker rm app1
+
+curl :
+	curl http://0.0.0.0:9090/
+		
+
